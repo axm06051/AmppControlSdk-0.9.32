@@ -1,0 +1,90 @@
+*******************************************
+Current time is: 2021-10-14T20:19:52.466196
+*******************************************
+tokenResult = 1
+bearer_token = eyJhbGciOiJSUzI1NiIsImtpZCI6IjExQkY1MEU4Mjk2RDg3MDMyRDA1NDFGMEM0MTI1QUUzQjQzMjdBRjUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJFYjlRNkNsdGh3TXRCVUh3eEJKYTQ3UXlldlUifQ.eyJuYmYiOjE2MzQyNDI3OTIsImV4cCI6MTYzNDI0NjM5MiwiaXNzIjoiaHR0cHM6Ly9kZXYtZXUtd2VzdC5jbG91ZC5ncmFzc3ZhbGxleS5jb20vaWRlbnRpdHkiLCJhdWQiOlsiaHR0cHM6Ly9kZXYtZXUtd2VzdC5jbG91ZC5ncmFzc3ZhbGxleS5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiUGxhdGZvcm0iXSwiY2xpZW50X2lkIjoiNWVkYjE4ZjM3OTA3NDUzYzgzZjY0MmYzOWU5MTMwZDAiLCJhY2MiOiJpZmxldGNoZXIiLCJyb2xlIjoiY2x1c3Rlci5hZ2VudCIsInNjb3BlIjpbInBsYXRmb3JtIl19.ckVjHblGePhQgXOKIVEkQ3YehplryrsqU9RzLzS1yVDQOLJzZr6eAHAgZEc8-HVCwufilRp4HVV259rpCOOIp5EsTxivFSViMH_lyK0LIoRXMdrxuul7AvrN7N8_1dEwpgaP24Pf4EFQJ20_FJyIdVrm7xieHF4SifLWvZEyPL5wUmHPin8AVH4rhAxHKup1un75_y5SM4dFL2pyQwpia2iDKC-bjNnimOrFwYfeMVMesdKtvDmp9wi9PQYHUVX4zFWknehkoR4MhzjkLKdL4cbIPZ6PGN7F50u-U6uyJUnU7SYPk1ub_PuL2Sr_NjWoWVbuA1FFs1DdxdLaM0xfNA
+expiresIn = 3600
+*******************************************
+applicationsResult = 1
+applications size = 28
+AudioMixer was found.
+*******************************************
+workloadsResult = 1
+workloads array size = 15
+Workload for app "AudioMixer" is aa58e0bb-353a-4b9e-ad7c-dd68efcd6efd
+*******************************************
+---- FOUND RUNNING WORKLOAD IN LIST ----
+*******************************************
+> Created connection with id 0
+[2021-10-14 16:19:55] [connect] Successful connection
+[2021-10-14 16:19:55] [connect] WebSocket Connection 63.33.185.56:443 v-2 "WebSocket++/0.8.2" /pushnotifications-ws?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjExQkY1MEU4Mjk2RDg3MDMyRDA1NDFGMEM0MTI1QUUzQjQzMjdBRjUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJFYjlRNkNsdGh3TXRCVUh3eEJKYTQ3UXlldlUifQ.eyJuYmYiOjE2MzQyNDI3OTIsImV4cCI6MTYzNDI0NjM5MiwiaXNzIjoiaHR0cHM6Ly9kZXYtZXUtd2VzdC5jbG91ZC5ncmFzc3ZhbGxleS5jb20vaWRlbnRpdHkiLCJhdWQiOlsiaHR0cHM6Ly9kZXYtZXUtd2VzdC5jbG91ZC5ncmFzc3ZhbGxleS5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiUGxhdGZvcm0iXSwiY2xpZW50X2lkIjoiNWVkYjE4ZjM3OTA3NDUzYzgzZjY0MmYzOWU5MTMwZDAiLCJhY2MiOiJpZmxldGNoZXIiLCJyb2xlIjoiY2x1c3Rlci5hZ2VudCIsInNjb3BlIjpbInBsYXRmb3JtIl19.ckVjHblGePhQgXOKIVEkQ3YehplryrsqU9RzLzS1yVDQOLJzZr6eAHAgZEc8-HVCwufilRp4HVV259rpCOOIp5EsTxivFSViMH_lyK0LIoRXMdrxuul7AvrN7N8_1dEwpgaP24Pf4EFQJ20_FJyIdVrm7xieHF4SifLWvZEyPL5wUmHPin8AVH4rhAxHKup1un75_y5SM4dFL2pyQwpia2iDKC-bjNnimOrFwYfeMVMesdKtvDmp9wi9PQYHUVX4zFWknehkoR4MhzjkLKdL4cbIPZ6PGN7F50u-U6uyJUnU7SYPk1ub_PuL2Sr_NjWoWVbuA1FFs1DdxdLaM0xfNA 101
+>>>>>>>>>>>>> Subscribing to "gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.*.notify"
+>>>>>>>>>>>>> Subscribing to "gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.*.status"
+[2021-10-14 16:20:00] [frame_header] Dispatching write containing 1 message(s) containing 8 header bytes and 315 payload bytes
+[2021-10-14 16:20:00] [frame_header] Header Bytes: 
+[0] (8) 82 FE 01 3B 1D 38 4F E0 
+
+>>>>>>>>>>>>> Sending command "gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.getstate"
+[2021-10-14 16:20:00] [frame_header] Dispatching write containing 1 message(s) containing 8 header bytes and 315 payload bytes
+[2021-10-14 16:20:00] [frame_header] Header Bytes: 
+[0] (8) 82 FE 01 3B 2A A2 0E 4E 
+
+[2021-10-14 16:20:00] [frame_header] Dispatching write containing 1 message(s) containing 8 header bytes and 540 payload bytes
+[2021-10-14 16:20:00] [frame_header] Header Bytes: 
+[0] (8) 82 FE 02 1C 3B 6A E1 98 
+
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcResponse","Payload":{"Exception":null,"ExceptionMessage":null,"RequestId":"42de1f9f-b16f-4ae6-8f48-71e161768bcc","ReturnValue":{"ETag":null,"ErrorResult":null,"IsError":false,"IsSuccess":true,"Status":1}}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcResponse","Payload":{"Exception":null,"ExceptionMessage":null,"RequestId":"0bf172ca-7988-4b7d-833d-9d3d91e3301f","ReturnValue":{"ETag":null,"ErrorResult":null,"IsError":false,"IsSuccess":true,"Status":1}}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcResponse","Payload":{"Exception":null,"ExceptionMessage":null,"RequestId":"40641bdf-5d98-4d4b-86ed-3fbb08729ac2","ReturnValue":{"ETag":null,"ErrorResult":null,"IsError":false,"IsSuccess":true,"Status":1}}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":[{\"Index\":1,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":2,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":3,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":4,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":5,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":6,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":7,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false},{\"Index\":8,\"Level\":90,\"Mute\":false,\"Label\":null,\"Channels\":[],\"EqByPass\":false}]}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"4adfbdf5-9a17-4eed-bac6-12c003018d8e","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:00.4969678+00:00","Time":"2021-10-14T20:20:00.4234684+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.groupstate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":[{\"Index\":1,\"Level\":33,\"Mute\":false,\"EqByPass\":false,\"Source\":\"AWS:RTMP IN 1\",\"Label\":\"AWS:RTMP IN 1\",\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":2,\"Level\":45,\"Mute\":false,\"EqByPass\":false,\"Source\":\"AWS:Clip 2\",\"Label\":\"AWS:Clip 2\",\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":3,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":4,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":5,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":6,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":7,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":8,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":9,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":10,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":11,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":12,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":13,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":14,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":15,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1},{\"Index\":16,\"Level\":0,\"Mute\":false,\"EqByPass\":false,\"Source\":null,\"Label\":null,\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1}]}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"57bd216b-66cd-4eb7-8269-b77dcbd54bdc","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:00.6579204+00:00","Time":"2021-10-14T20:20:00.5783539+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.channelstate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":[{\"Index\":1,\"Level\":54,\"Mute\":true,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":2,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":3,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":4,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":5,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":6,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":7,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},{\"Index\":8,\"Level\":90,\"Mute\":false,\"EqByPass\":false,\"Label\":null,\"Channels\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]}]}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"22b732d3-9e50-4c94-8753-b1dc629dc90a","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:00.8109469+00:00","Time":"2021-10-14T20:20:00.7323364+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.outputstate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":{\"Index\":1,\"Level\":90,\"Mute\":false,\"Label\":null}}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"c103647f-1d1e-4801-aa72-89a7f215c506","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:00.9648497+00:00","Time":"2021-10-14T20:20:00.8862829+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.masterstate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":[{\"Index\":1,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":2,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":3,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":4,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":5,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":6,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":7,\"Level\":90,\"Mute\":false,\"Label\":null},{\"Index\":8,\"Level\":90,\"Mute\":false,\"Label\":null}]}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"476c842f-8e1f-43fa-9d57-4fbf04a29577","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:01.1139105+00:00","Time":"2021-10-14T20:20:01.0404486+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.vcastate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+
+>>>>>>>>>>>>> Sending command "gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.channelstate" with payload "{ "Key" : "TestApplication", "Payload" : {"Index": 1,"Level": 33} }"
+
+[2021-10-14 16:20:05] [frame_header] Dispatching write containing 1 message(s) containing 8 header bytes and 566 payload bytes
+[2021-10-14 16:20:05] [frame_header] Header Bytes: 
+[0] (8) 82 FE 02 36 AF D7 44 D3 
+
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcResponse","Payload":{"Exception":null,"ExceptionMessage":null,"RequestId":"8a481bc5-ae4f-4aeb-bc8f-68482c92b656","ReturnValue":{"ETag":null,"ErrorResult":null,"IsError":false,"IsSuccess":true,"Status":1}}}
+***************************
+Receiving BINARY message.
+*** From BSON to JSON: ***
+{"PacketType":"RpcRequest","Payload":{"Arguments":[{"Account":"ifletcher","BinaryContent":null,"Content":"{\"key\":\"TestApplication\",\"payload\":{\"Index\":1,\"Level\":33,\"Mute\":false,\"EqByPass\":false,\"Source\":\"AWS:RTMP IN 1\",\"Label\":\"AWS:RTMP IN 1\",\"Gain\":63,\"Pan\":63,\"Mono\":false,\"Left\":true,\"Right\":true,\"Pair\":1}}","ContentLength":0,"ContentType":null,"CorrelationId":"e4d7a461-5c53-48b3-868c-9bfd45c75e37","Id":"d3ffa124-704c-4e16-adb7-2e3d17a08aa3","Source":"GV.AMPP.Apps.AudioMixer","TTL":"2021-10-14T20:20:05.5321657+00:00","Time":"2021-10-14T20:20:05.4460404+00:00","Topic":"gv.ampp.control.620a89fc-ace8-441b-a423-733b54aec299.channelstate.notify"}],"HubMethod":"ReceiveNotification","HubName":null,"RequestId":null}}
+***************************
+> Closing connection 0
+[2021-10-14 16:20:35] [frame_header] Dispatching write containing 1 message(s) containing 6 header bytes and 2 payload bytes
+[2021-10-14 16:20:35] [frame_header] Header Bytes: 
+[0] (6) 88 82 EA 27 C2 F9 
+
+[2021-10-14 16:20:35] [control] Control frame received with opcode 8
+[2021-10-14 16:20:35] [disconnect] Disconnect close local:[1001] remote:[1001]
+

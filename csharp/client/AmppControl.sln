@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ampp.control.common", "ampp.control.common\ampp.control.common.csproj", "{A55E3B4A-5C6A-4ECB-9F9D-FADCFBBC57C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test.client", "test.client\test.client.csproj", "{D49E427D-9176-4808-BFE6-CFD04CAE210A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cloudwatch.bridge", "cloudwatch.bridge\cloudwatch.bridge.csproj", "{2EB3D284-D751-4832-9068-0ADF62DDF44A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutingSdkClient", "RoutingSdkClient\RoutingSdkClient.csproj", "{609F077F-9FDD-41CA-BBCD-E2884B015336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyframesSdkClient", "KeyframesSdkClient\KeyframesSdkClient.csproj", "{2F983359-9B45-49A7-934B-2368673CD4DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55E3B4A-5C6A-4ECB-9F9D-FADCFBBC57C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55E3B4A-5C6A-4ECB-9F9D-FADCFBBC57C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55E3B4A-5C6A-4ECB-9F9D-FADCFBBC57C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55E3B4A-5C6A-4ECB-9F9D-FADCFBBC57C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49E427D-9176-4808-BFE6-CFD04CAE210A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49E427D-9176-4808-BFE6-CFD04CAE210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49E427D-9176-4808-BFE6-CFD04CAE210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49E427D-9176-4808-BFE6-CFD04CAE210A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB3D284-D751-4832-9068-0ADF62DDF44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB3D284-D751-4832-9068-0ADF62DDF44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB3D284-D751-4832-9068-0ADF62DDF44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB3D284-D751-4832-9068-0ADF62DDF44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609F077F-9FDD-41CA-BBCD-E2884B015336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609F077F-9FDD-41CA-BBCD-E2884B015336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609F077F-9FDD-41CA-BBCD-E2884B015336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609F077F-9FDD-41CA-BBCD-E2884B015336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F983359-9B45-49A7-934B-2368673CD4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F983359-9B45-49A7-934B-2368673CD4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F983359-9B45-49A7-934B-2368673CD4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F983359-9B45-49A7-934B-2368673CD4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E0902C5-BC2B-4466-945E-FD3278679A2D}
+	EndGlobalSection
+EndGlobal

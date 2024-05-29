@@ -1,0 +1,26 @@
+{
+  "name": "amppcontrolsdk",
+  "version": "0.9.31",
+  "description": "Demonstrates how to use AMPP Control from TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.0",
+    "axios": "^0.25.0",
+    "cli-color": "^2.0.1",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "luxon": "^2.3.0"
+  }
+}

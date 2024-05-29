@@ -1,0 +1,40 @@
+{
+  "name": "Sdk.DemoService",
+  "version": "0.1.0.4",
+  "description": "A demo application part of the Ammp App SDK.",
+  "summary": "An Example Ampp Control Service.",
+  "title": "Sdk Demo",
+  "vru": 5,
+  "tasks": [
+    {
+      "type": "config",
+      "options": {
+        "sourceFile": "templates\\appsettings-template.json",
+        "destinationFile": "bin\\appsettings.json"
+      }
+    }
+  ],
+  "application": {
+    "filePath": "bin/Sdk.DemoService",
+    "arguments": "--port {{allocate_port}}",
+    "workingFolder": "bin"
+  },
+  "clientDetails": {
+    "grantType": "ImplicitAndClientCredentials",
+    "scopes": [
+      "platform",
+      "cluster.readonly"
+    ]
+  },
+  "applicationSettings": [
+    {
+      "name": "demoParameter",
+      "label": "Demo Parameter",
+      "description": "A Demo Parameter",
+      "type": "Text",
+      "defaultValue": "default parameter",
+      "required": false
+    }
+  ],
+  "packageOS": "LinuxX64"
+}

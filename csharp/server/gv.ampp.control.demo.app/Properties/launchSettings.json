@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "gv.ampp.control.demo.app": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GVCLUSTER_PLATFORMAPIKEY": "",
+        "GVCLUSTER_PLATFORMURI": "",
+        "GVCLUSTER_WORKLOADID": "",
+        "GVCLUSTER_WORKLOADNAME": ""
+      }
+    }
+  }
+}

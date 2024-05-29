@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "out",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true
+  }
+}

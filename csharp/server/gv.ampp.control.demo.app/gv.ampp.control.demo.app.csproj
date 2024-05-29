@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	<VersionPrefix>1.2.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="gv.ampp.control.service\**" />
+    <EmbeddedResource Remove="gv.ampp.control.service\**" />
+    <None Remove="gv.ampp.control.service\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Markdown\channelstate.md" />
+    <None Remove="Markdown\config.md" />
+    <None Remove="Markdown\getstate.md" />
+    <None Remove="Markdown\metrics.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Include="Markdown\metrics.md" />
+    <EmbeddedResource Include="Markdown\getstate.md" />
+    <EmbeddedResource Include="Markdown\channelstate.md" />
+    <EmbeddedResource Include="Markdown\config.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gv.Ampp.Control.Sdk" Version="1.3.1.23" />
+  </ItemGroup>
+
+
+</Project>
